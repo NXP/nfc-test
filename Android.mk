@@ -1,0 +1,19 @@
+# © 2017 KAI OS TECHNOLOGIES (HONG KONG) LIMITED, all rights reserved.
+LOCAL_PATH:= $(call my-dir)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE       := pnscr
+LOCAL_MODULE_TAGS  := optional
+LOCAL_MODULE_CLASS := DATA
+LOCAL_SRC_FILES    := pnscr
+LOCAL_MODULE_PATH  := $(TARGET_OUT_EXECUTABLES)
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE       := Card_Mode.txt
+LOCAL_MODULE_TAGS  := optional
+LOCAL_MODULE_CLASS := DATA
+LOCAL_SRC_FILES    := Card_Mode.txt
+LOCAL_MODULE_PATH  := $(TARGET_OUT_ETC)/nfc
+include $(BUILD_PREBUILT)
+
