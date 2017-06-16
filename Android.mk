@@ -18,6 +18,7 @@ LOCAL_SRC_FILES    := Card_Mode_SD.txt
 else
 LOCAL_SRC_FILES    := Card_Mode.txt
 endif
+
 LOCAL_MODULE_PATH  := $(TARGET_OUT_ETC)/nfc
 include $(BUILD_PREBUILT)
 
