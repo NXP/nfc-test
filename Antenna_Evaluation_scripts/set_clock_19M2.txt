@@ -1,0 +1,9 @@
+reset 1						//set VEN to 0
+interval 20
+send 20000101				//NCI CORE RESET CMD
+send 200100					//NCI CORE INIT CMD
+send 2F0200					//NCI SYSTEM ACT PROPRIETARY EXT
+send 20020501A0030100						// PLL used
+send 20020C01A020088851E302B821E102									// Clock 19.2 MHz
+send 20020C01A026088801E202F000A201									// Clock 19.2 MHz
+end
