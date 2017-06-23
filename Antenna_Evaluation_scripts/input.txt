@@ -1,0 +1,20 @@
+#write name/suffixe of the Files to be included
+.c
+.s
+.h
+
+#write PATH/Folder from where the above files to be included
+#Syntax :^include PATH/Folder
+include PN547/external/chibios/
+include PN547/external/phCipher/
+include PN547/comps/
+include PN547/patches/
+
+#write PATH/Folder which is to be excluded while inlcuding above files
+#Syntax :^exclude PATH/Folder
+exclude PN547/build/
+
+
+
+
+
