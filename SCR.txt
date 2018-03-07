@@ -1,0 +1,12 @@
+NXP Software Content Register
+
+--------------------------------------------
+Outgoing License:          NXP EULA  
+License File:              EULA.txt 
+Package Category:          Production Test Application  
+Type of content:           Source Code
+Description and comments:  Test Application
+Release Location:          github.com/NXP  
+Origin:                    NXP (proprietary) 
+
+-------------------------------------------- 
